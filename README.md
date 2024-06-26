@@ -9,7 +9,7 @@ ReachInbox is a revolutionary AI-driven platform transforming cold outreach. Thi
 ### Prerequisites
 
 - Node.js installed on your machine
-- Redis server running locally
+- Docker installed on your machine
 - Google Cloud project with Gmail API enabled
 
 ### Installation
@@ -30,6 +30,11 @@ ReachInbox is a revolutionary AI-driven platform transforming cold outreach. Thi
     id=your-google-client-id
     secret=your-google-client-secret
     aisec=your-google-api-key
+    ```
+
+4. Start Redis using Docker:
+    ```sh
+    docker run -d -p 6379:6379 --name reachinbox-redis redis
     ```
 
 ### Running the Server

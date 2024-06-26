@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project automates the process of reading and categorizing unread emails from your Gmail account. It uses the Google Gmail API to read emails and classify them as "Interested", "Not Interested", or "More information" based on their content. Depending on the classification, an appropriate response is sent back to the sender.
+ReachInbox is a revolutionary AI-driven platform transforming cold outreach. This project automates the process of reading and categorizing unread emails from your Gmail account. It uses the Google Gmail API to read emails and classify them as "Interested", "Not Interested", or "More information" based on their content. Depending on the classification, an appropriate response is sent back to the sender.
 
 ## Getting Started
 
